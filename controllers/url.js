@@ -25,7 +25,17 @@ const handleGetAnalytics = async (req, res) => {
   });
 };
 
+const handleGetAllUrls = async (req, res) => {
+  const urls = await URL.find({});
+  console.log("urls", urls);
+
+  return res.render("home", {
+    urls,
+  });
+};
+
 module.exports = {
   handleGenerateNewShortURL,
   handleGetAnalytics,
+  handleGetAllUrls,
 };
