@@ -1,0 +1,29 @@
+{
+  "name": "shortify",
+  "version": "1.0.0",
+  "description": "Short a long URL",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --experimental-require-module index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Ravikachhadiya/shortify.git"
+  },
+  "keywords": [
+    "URL",
+    "shortner"
+  ],
+  "author": "Ravi Kachhadiya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ravikachhadiya/shortify/issues"
+  },
+  "homepage": "https://github.com/Ravikachhadiya/shortify#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.4.1",
+    "nanoid": "^5.0.7",
+    "nodemon": "^3.1.3"
+  }
+}
